@@ -30,13 +30,13 @@ export function FormSecond() {
     setAccountType(event.target.value);
   };
 
-  const handleSubmit = (event: any) => {
-    event.preventDefault();
-    if (password !== repeatPassword) {
-      console.log("error");
-    }
-    onSubmit(username, password, repeatPassword, accountType);
-  };
+  // const handleSubmit = (event: any) => {
+  //   event.preventDefault();
+  //   if (password !== repeatPassword) {
+  //     console.log("error");
+  //   }
+  //   onSubmit(username, password, repeatPassword, accountType);
+  // };
 
   return (
     <>
