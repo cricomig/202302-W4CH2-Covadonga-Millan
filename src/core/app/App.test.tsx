@@ -4,7 +4,7 @@ import App from "./App";
 describe("given App component", () => {
   describe("when we render FormFirst", () => {
     test("then app renders it", () => {
-      const { getByText } = render(<App />);
+      const { getByText } = render(<App></App>);
       expect(getByText(/data/i)).toBeInTheDocument();
     });
   });
